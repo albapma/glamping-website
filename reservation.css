@@ -6,21 +6,21 @@ body {
 }
 
 .background-overlay {
-    position: fixed; /* Cubre toda la ventana */
+    position: fixed; 
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url("jacuzzi.jpg"); /* Asegúrate de que esta sea la ruta correcta */
-    background-size: cover; /* Asegúrate de que la imagen cubra todo el fondo */
-    background-position: center; /* Centra la imagen */
-    background-repeat: no-repeat; /* Evita que la imagen se repita */
-    opacity: 0.4; /* Ajusta la opacidad según sea necesario */
-    z-index: -1; /* Coloca el pseudo-elemento detrás del contenido */
+    background-image: url("jacuzzi.jpg");
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    opacity: 0.4; 
+    z-index: -1; 
 }
 
 .navbar {
-    z-index: 1; /* Asegura que el navbar esté sobre el fondo */
+    z-index: 1; 
 }
 
 
