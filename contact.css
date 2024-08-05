@@ -1,0 +1,62 @@
+body {
+    font-family: "Ubuntu", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #c6b4b4;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+.container {
+    text-align: center;
+    background-color: transparent; 
+}
+
+h1 {
+    font-weight: 700;
+    color: #343a40;
+}
+
+.nav-link.active {
+    font-weight: bold;
+}
+
+.card {
+    border: none;
+    background-color: white; 
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #555;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.form-group label {
+    font-weight: 500;
+}
+
+.form-control {
+    border-radius: 0.25rem;
+    border-color: #ced4da;
+}
+
+.form-control:focus {
+    border-color: #80bdff;
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+}

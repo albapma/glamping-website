@@ -1,0 +1,80 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.background-overlay {
+    position: fixed; /* Cubre toda la ventana */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("jacuzzi.jpg"); /* Asegúrate de que esta sea la ruta correcta */
+    background-size: cover; /* Asegúrate de que la imagen cubra todo el fondo */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    opacity: 0.4; /* Ajusta la opacidad según sea necesario */
+    z-index: -1; /* Coloca el pseudo-elemento detrás del contenido */
+}
+
+/* Estilo para el navbar */
+.navbar {
+    margin-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo oscuro semi-transparente */
+    position: relative;
+    z-index: 1; /* Asegura que el navbar esté sobre el fondo */
+}
+
+.nav-link.active {
+    font-weight: bold;
+}
+/* Estilo para los encabezados */
+h1 {
+    color: black; /* Cambia el color del texto a blanco para mejor visibilidad sobre el fondo */
+    text-align: center;
+}
+
+P{ text-align: center;
+color: black;
+font-weight: 0;}
+
+/* Estilo para el contenedor principal */
+.container {
+    padding: 20px;
+    background-color: transparent; /* Fondo transparente */
+    color: #fff; /* Color del texto blanco para mejor visibilidad */
+    position: relative;
+    z-index: 1; /* Asegura que el contenedor esté por encima del pseudo-elemento */
+}
+.book-box {
+    background-color: #343A40;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px; 
+    margin: 0 auto; 
+   
+    
+    
+}
+
+
+.form-label {
+    font-weight: bold;
+    color: white;
+}
+
+.btn-primary {
+    background-color: grey;
+    border-color: grey;
+    margin-bottom: 16px;
+}
+
+.btn-primary:hover {
+    background-color: #454745;
+    border-color: #454745;
+}

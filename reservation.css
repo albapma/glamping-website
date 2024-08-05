@@ -1,0 +1,45 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.background-overlay {
+    position: fixed; /* Cubre toda la ventana */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("jacuzzi.jpg"); /* Asegúrate de que esta sea la ruta correcta */
+    background-size: cover; /* Asegúrate de que la imagen cubra todo el fondo */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    opacity: 0.4; /* Ajusta la opacidad según sea necesario */
+    z-index: -1; /* Coloca el pseudo-elemento detrás del contenido */
+}
+
+.navbar {
+    z-index: 1; /* Asegura que el navbar esté sobre el fondo */
+}
+
+
+#reservationForm {max-width: 600px; 
+    margin: 0 auto; 
+padding: 10px; }
+
+    h1 {text-align: center;
+    padding: 10px;
+margin: 20px;}
+
+.form-group {
+padding: 5px;}
+
+.button-container {
+    text-align: center; 
+    padding-top: 10px;
+}
+
+.container {background-color: white;
+max-width: 700px;
+margin-bottom: 20px;}

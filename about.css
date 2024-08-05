@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #c6b4b4;
+    font-family: "Ubuntu", sans-serif;
+}
+
+
+.navbar {
+    margin-bottom: 20px;
+    
+}
+
+.nav-link.active {
+    font-weight: bold;
+}
+
+img {width: 450px;
+height: auto;
+border-radius: 10%;
+}
+
+#history { padding: 10px;
+margin: 20px;}
+
+#town {padding-top: 40px;
+    margin: 30px;}
+    
+.container {text-align: center;}
