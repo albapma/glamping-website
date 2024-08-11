@@ -57,9 +57,7 @@ font-weight: 0;}
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     max-width: 600px; 
     margin: 0 auto; 
-   
-    
-    
+        
 }
 
 
@@ -77,4 +75,17 @@ font-weight: 0;}
 .btn-primary:hover {
     background-color: #454745;
     border-color: #454745;
+}
+
+@media (max-width: 400px) {
+    h1 { font-size: 30px;}
+    p{font-size: 15px;}
+    .book-box {max-width: 250px;
+    margin-bottom: 15px;}
+    .form-label {font-size: 12px;}
+    #departure {max-height: 20px;}
+    #arrival {max-height: 20px;}
+    .btn-primary {max-height: 30px;
+     font-size: 15px;
+    margin-top: 15px;}
 }
