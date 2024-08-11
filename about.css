@@ -28,3 +28,33 @@ margin: 20px;}
     margin: 30px;}
     
 .container {text-align: center;}
+
+.mobile-text {
+    display: none;
+}
+
+@media (max-width: 400px) {
+    h1 {
+        font-size: 25px;
+    }
+
+    img {
+        max-width: 160px;
+    }
+    .desktop-text {
+        display: none;
+    }
+    .mobile-text {
+        display: block;
+        font-size: 10px;
+        margin-left: 10px;
+    }
+    p{text-align: center;}
+  
+
+    #town{margin: 0;
+    }
+}
+
+
+
