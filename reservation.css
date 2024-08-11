@@ -43,3 +43,19 @@ padding: 5px;}
 .container {background-color: white;
 max-width: 700px;
 margin-bottom: 20px;}
+
+@media (max-width: 400px) { 
+    #reservationForm { max-width: 300px;
+    font-size: 15px;}
+    h1 {font-size: 25px;}
+    #fullName {max-height: 20px;
+    font-size: 15px;}
+    #email {max-height: 20px;
+        font-size: 15px;}
+    #phone {max-height: 20px;
+        font-size: 15px;}
+    #paymentMethod {max-height: 30px;
+        font-size: 15px;}
+        .btn  {max-height: 30px;
+        font-size: 12px;}
+}
